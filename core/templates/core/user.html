@@ -1,0 +1,40 @@
+{% extends 'main.html' %}
+{% block content%}
+
+    <div class="container">
+        <div class="row text-center">
+<form method="POST">
+    {% csrf_token %}
+
+        <h3>Add city from here</h3>
+            {{ form.name }}
+            <button class="button is-info">
+                Add City
+            </button>
+
+</form>
+        </div>
+    </div>
+
+    <section class="p-5">
+    <div class="container">
+        <div class="row text-center">
+           {% for forecast in forecast_for_user %}
+            <div class="col">
+            <img src="http://openweathermap.org/img/w/{{ forecast.icon }}.png" alt="Image">
+
+            </div>
+                <p>
+                        <span class="title">{{ forecast.city }}</span>
+                        <br>
+                        <span class="subtitle">{{ forecast.temperature }}° F</span>
+                        <br> {{ forecast.description }}
+                    </p>
+
+            {% endfor %}
+    </div>
+
+    </div>
+</section>
+
+{% endblock %}
