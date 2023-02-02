@@ -1,14 +1,13 @@
-import requests
-from . import models
-from . import forms
-from . import services
-from django.shortcuts import render, redirect
-
 from django.views.generic import CreateView
 from django.contrib.auth.views import LoginView
 from django.contrib.auth import logout, login
 from django.urls import reverse_lazy
-# Create your views here.
+from django.shortcuts import render, redirect
+import requests
+
+from . import models
+from . import forms
+from . import services
 
 
 def index(request):
@@ -27,10 +26,11 @@ def index(request):
     context = {'forecast_data': forecast_data}
     return render(request, 'core/index.html', context)
 
+
 def user(request):
     form = forms.RegionForm()
-    if request.method == 'POST':  # only true if form is submitted
-        form = forms.RegionForm(request.POST)  # add actual request data to form for processing
+    if request.method == 'POST':
+        form = forms.RegionForm(request.POST)
         if form.is_valid():
             form = form.save(commit=False)
             if request.user.is_authenticated:
@@ -45,6 +45,7 @@ def user(request):
         return render(request, 'core/user.html', context)
     else:
         return redirect('login')
+
 
 class RegisterUser(CreateView):
     form_class = forms.Registration

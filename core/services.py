@@ -1,5 +1,6 @@
 import requests
 
+
 def get_forecast(cities):
     url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=3473651768de5e545f7d20a5187dc1fd'
     forecast_data = []

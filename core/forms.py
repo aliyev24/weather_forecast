@@ -5,6 +5,7 @@ from django import forms
 
 from .models import Region
 
+
 class RegionForm(ModelForm):
     class Meta:
         model = Region
