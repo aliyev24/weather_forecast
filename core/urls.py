@@ -7,5 +7,5 @@ urlpatterns = [
     path('registration/', views.RegisterUser.as_view(), name='registration'),
     path('login/', views.LoginUser.as_view(), name='login'),
     path('logout/', views.logout_me, name='logout'),
-    path('user/', views.user, name='user'),
+    path('user/', views.user, name='user'), #the path for user page after login
     ]
