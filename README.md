@@ -1,7 +1,6 @@
-# weather_forecast
+# Weather Forecast
 
-- Weather Forecast for Cities
-- Add cities to your list to see weather forecast for them
+- Login and add cities to your list to see weather forecast for them
 - Registration and Authentication
 
 # Requirements
@@ -14,7 +13,8 @@
 * Postgres
 * External API
 
-# Installation 
+# Installation
+
 1. Create '.env' file in settings.py root and paste this:
 
  ```
