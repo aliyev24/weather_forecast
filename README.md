@@ -6,7 +6,6 @@
 
 # Requirements
 
-* Python 3.9 and up
 * Docker
 
 # Build with
