@@ -7,6 +7,7 @@
 # Requirements
 
 * Python 3.9 and up
+* Docker
 
 # Build with
 * Django 4.1.5
