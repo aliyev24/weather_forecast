@@ -2,6 +2,7 @@
 
 - Login and add cities to your list to see weather forecast for them
 - Registration and Authentication
+- Form
 
 # Requirements
 
