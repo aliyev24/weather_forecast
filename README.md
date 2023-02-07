@@ -14,6 +14,7 @@
 * Postgres
 * External API
 
+# Installation 
 1. Create '.env' file in settings.py root and paste this:
 
  ```
