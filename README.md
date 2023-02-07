@@ -9,6 +9,7 @@
 * Docker
 
 # Build with
+* Python 3.9
 * Django 4.1.5
 * Docker
 * Postgres
