@@ -9,15 +9,15 @@
 _ _ _ _ _ _ _ _ _ _ _ 
 - Login and add cities to your list to see weather forecast for them
 - Registration and Authentication
-
-# Build with
+_ _ _ _ _ _ _ _ _ _ _
+### Build with
 * Python
 * Django 4
 * Docker
 * Postgres
 * Weather API
-
-# Installation
+_ _ _ _ _ _ _ _ _ _ _
+### Installation
 
 1. Create '.env' file in settings.py root and paste this:
 
