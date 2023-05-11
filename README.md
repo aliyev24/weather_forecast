@@ -2,18 +2,13 @@
 
 - Login and add cities to your list to see weather forecast for them
 - Registration and Authentication
-- Form
-
-# Requirements
-
-* Docker
 
 # Build with
-* Python 3.9
-* Django 4.1.5
+* Python
+* Django 4
 * Docker
 * Postgres
-* External API
+* Weather API
 
 # Installation
 
