@@ -9,6 +9,8 @@
 
 </div>
 
+_ _ _ _ _ _ _ _ _ _ _
+
 - Weather Forecast for different cities
 - Login and add cities to your list to see weather forecast for them
 - Registration and Authentication
