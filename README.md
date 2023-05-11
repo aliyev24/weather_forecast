@@ -6,7 +6,7 @@
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white&style=flat-square)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
 ![PayPal](https://img.shields.io/badge/-PayPal-00457C?logo=paypal&logoColor=white&style=flat-square)
-
+_ _ _ _ _ _ _ _ _ _ _ 
 - Login and add cities to your list to see weather forecast for them
 - Registration and Authentication
 
