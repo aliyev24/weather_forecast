@@ -1,5 +1,5 @@
 # Weather Forecast
-<p align="center">![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)</p>
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)
 ![DjangoRestFramework](https://img.shields.io/badge/-Django%20Rest%20-880808?logo=django&logoColor=white&style=flat-square)
 ![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white&style=flat-square)
