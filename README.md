@@ -22,6 +22,7 @@ _ _ _ _ _ _ _ _ _ _ _
 * Docker
 * Postgres
 * Weather API
+* Bootstrap
 _ _ _ _ _ _ _ _ _ _ _
 ### Installation
 
