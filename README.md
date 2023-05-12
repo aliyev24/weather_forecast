@@ -6,6 +6,7 @@
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-3776AB?logo=postgresql&logoColor=white&style=flat-square)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat-square)
+![HTML](https://img.shields.io/badge/-Html-E34F26?logo=html5&logoColor=white&style=flat-square)
 
 </div>
 
